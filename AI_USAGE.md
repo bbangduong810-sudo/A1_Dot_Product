@@ -3,41 +3,41 @@
 ## Lich su
 
 ### 1
-- Thoi gian: 2026-11-22 den 2026-11-23
+- Thoi gian: 2026-11-23
 - Nguoi su dung: Bac
-- Cong cu/mo hinh: ChatGPT (OpenAI; dien phien ban neu biet)
+- Cong cu/mo hinh: ChatGPT (GPT-6)
 - Muc dich: Thiet lap moi truong GCC, OpenMP va Git.
 - Prompt hoac tom tat prompt: Huong dan cai dat va sua loi
   bien dich OpenMP tren Windows 11, MSYS2 UCRT64.
 - Ket qua: Huong dan cai GCC, libgomp, Git va kiem tra OpenMP.
 - Phan da su dung: Cac lenh cai dat va kiem tra moi truong.
-- Chinh sua cua nhom: Can bo sung neu co.
+- Chinh sua cua nhom: 
 - Kiem chung: omp_test.exe chay va tra ve Dot product = 70.
 - Commit/issue lien quan: Khong co commit rieng.
 
 ### 2
 - Thoi gian: 2026-11-23
 - Nguoi su dung: Bac
-- Cong cu/mo hinh: ChatGPT (OpenAI; dien phien ban neu biet)
+- Cong cu/mo hinh: ChatGPT (GPT-6)
 - Muc dich: Thiet ke thuat toan PCAM cho A1.
 - Prompt hoac tom tat prompt: Huong dan thiet ke PCAM cho
   bai toan tinh tich vo huong cua hai vector.
 - Ket qua: Ban thiet ke PCAM ban dau.
 - Phan da su dung: docs/PCAM.md.
-- Chinh sua cua nhom: Can bo sung neu co.
+- Chinh sua cua nhom:
 - Kiem chung: Can tiep tuc doi chieu PCAM voi ma OpenMP.
 - Commit/issue lien quan: c10aa47.
 
 ### 3
 - Thoi gian: 2026-11-23
 - Nguoi su dung: Bac
-- Cong cu/mo hinh: ChatGPT (OpenAI; dien phien ban neu biet)
+- Cong cu/mo hinh: ChatGPT (GPT-6)
 - Muc dich: Goi y chuong trinh C++ tuan tu.
 - Prompt hoac tom tat prompt: Viet chuong trinh tinh tich
   vo huong, sinh du lieu va do thoi gian bang C++17.
 - Ket qua: Ma nguon src/sequential.cpp.
 - Phan da su dung: Chuong trinh tuan tu.
-- Chinh sua cua nhom: Can bo sung neu co.
+- Chinh sua cua nhom: 
 - Kiem chung: Bien dich thanh cong; N=4 cho 70;
   N=1000000 cho 3191500000.
 - Commit/issue lien quan: Commit phien ban tuan tu.
@@ -58,7 +58,7 @@ Khong su dung AI de tao so lieu thuc nghiem gia.
   su dung parallel for, reduction va schedule(static).
 - Ket qua: Ma nguon src/parallel.cpp.
 - Phan da su dung: Chuong trinh OpenMP va lenh bien dich.
-- Chinh sua cua nhom: Can bo sung neu co.
+- Chinh sua cua nhom: 
 - Kiem chung:
   + N=4, threads=2: dot product=70.
   + N=1000000, threads=4: dot product=3191500000.
@@ -113,7 +113,7 @@ Khong su dung AI de tao so lieu thuc nghiem gia.
   + scripts/build.sh
   + docs/ENVIRONMENT.md
 - Phan da su dung: Script Bash va mau tai lieu.
-- Chinh sua cua nhom: Bo sung neu co.
+- Chinh sua cua nhom: 
 - Kiem chung:
   + BUILD COMPLETED SUCCESSFULLY.
   + Bo kiem thu: 41 PASS, 0 FAIL.
