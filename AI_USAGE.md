@@ -80,3 +80,22 @@ Khong su dung AI de tao so lieu thuc nghiem gia.
 - Gioi han: Chua kiem thu day du race condition
   va cac truong hop loi cap phat bo nho.
 - Commit lien quan: Commit bo kiem thu.
+### 6. Ho tro benchmark va ve bieu do
+- Thoi gian: 2026-11-23
+- Nguoi su dung: Bac
+- Cong cu/mo hinh: ChatGPT (GPT-6)
+- Muc dich: Thiet ke benchmark va phan tich hieu nang.
+- Prompt chinh: Huong dan benchmark A1 voi 3 kich
+  thuoc du lieu, nhieu cau hinh luong, 5 lan chay.
+- Ket qua: scripts/benchmark.py va scripts/plot.py.
+- Phan da su dung: Ma Python benchmark, thong ke
+  median, IQR, speedup, efficiency va ve bieu do.
+- Chinh sua cua nhom: Bo sung cac dieu chinh thuc te.
+- Kiem chung:
+  + Benchmark hoan tat 105 lan do chinh thuc.
+  + Ket qua duoc luu vao CSV.
+  + Tao thanh cong 5 bieu do PNG.
+  + Moi lan chay duoc doi chieu ket qua tich vo huong.
+- Gioi han: Moi cau hinh moi chay 5 lan;
+  chua co phan tich y nghia thong ke.
+- Commit lien quan: Commit benchmark.
