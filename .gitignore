@@ -1,0 +1,19 @@
+# Compiled files
+*.exe
+*.o
+*.obj
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Temporary files
+*.tmp
+*.log
+
+# Generated large datasets
+data/generated/
+
+# Editor files
+.vscode/
