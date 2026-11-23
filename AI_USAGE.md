@@ -99,3 +99,23 @@ Khong su dung AI de tao so lieu thuc nghiem gia.
 - Gioi han: Moi cau hinh moi chay 5 lan;
   chua co phan tich y nghia thong ke.
 - Commit lien quan: Commit benchmark.
+
+### 7. Ho tro script build va tai lieu moi truong
+
+- Thoi gian: 2026-11-23
+- Nguoi su dung: Bac
+- Cong cu/mo hinh: ChatGPT (GPT-6)
+- Muc dich: Tu dong hoa bien dich va ghi lai
+  moi truong thuc nghiem.
+- Prompt chinh: Huong dan tao build.sh va
+  ENVIRONMENT.md cho project A1.
+- Ket qua:
+  + scripts/build.sh
+  + docs/ENVIRONMENT.md
+- Phan da su dung: Script Bash va mau tai lieu.
+- Chinh sua cua nhom: Bo sung neu co.
+- Kiem chung:
+  + BUILD COMPLETED SUCCESSFULLY.
+  + Bo kiem thu: 41 PASS, 0 FAIL.
+  + Doi chieu phien ban phan mem voi may thuc te.
+- Commit lien quan: Commit script build va moi truong.
