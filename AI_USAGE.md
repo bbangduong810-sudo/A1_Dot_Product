@@ -47,3 +47,22 @@
 Nguoi nop chiu trach nhiem ve tinh dung dan, ban quyen,
 so lieu thuc nghiem va moi noi dung da nop.
 Khong su dung AI de tao so lieu thuc nghiem gia.
+
+### 4
+- Thoi gian: 2026-11-23
+- Nguoi su dung: Bac
+- Cong cu/mo hinh: ChatGPT (GPT-6)
+- Muc dich: Ho tro lap trinh song song bang OpenMP.
+- Prompt hoac tom tat prompt: Huong dan xay dung
+  phien ban song song tinh tich vo huong hai vector,
+  su dung parallel for, reduction va schedule(static).
+- Ket qua: Ma nguon src/parallel.cpp.
+- Phan da su dung: Chuong trinh OpenMP va lenh bien dich.
+- Chinh sua cua nhom: Can bo sung neu co.
+- Kiem chung:
+  + N=4, threads=2: dot product=70.
+  + N=1000000, threads=4: dot product=3191500000.
+  + N=1000000, threads=1: dot product=3191500000.
+  + Ca ba truong hop deu cho ket qua dung.
+  + Chua hoan thanh benchmark va kiem thu day du.
+- Commit/issue lien quan: Commit phien ban song song.
