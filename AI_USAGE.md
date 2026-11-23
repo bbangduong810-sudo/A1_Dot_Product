@@ -66,3 +66,17 @@ Khong su dung AI de tao so lieu thuc nghiem gia.
   + Ca ba truong hop deu cho ket qua dung.
   + Chua hoan thanh benchmark va kiem thu day du.
 - Commit/issue lien quan: Commit phien ban song song.
+### 5
+- Thoi gian: 2026-11-23
+- Nguoi su dung: Bac
+- Cong cu/mo hinh: ChatGPT (GPT-6)
+- Muc dich: Ho tro xay dung bo kiem thu tu dong.
+- Prompt chinh: Huong dan kiem thu tinh dung dan
+  cua chuong trinh tich vo huong tuan tu va OpenMP.
+- Ket qua: tests/test_dot_product.py
+- Phan da su dung: Ma Python kiem thu.
+- Chinh sua: Sua loi dan lenh Bash vao tep Python.
+- Kiem chung: 41 PASS, 0 FAIL.
+- Gioi han: Chua kiem thu day du race condition
+  va cac truong hop loi cap phat bo nho.
+- Commit lien quan: Commit bo kiem thu.
